@@ -13,7 +13,6 @@
     "start": "next start",
     "lint": "next lint",
     "pages:build": "npx @cloudflare/next-on-pages",
-    "postinstall": "patch-package",
     "preview": "next build && next start",
     "postinstall": "prisma generate",
     "email": "email dev --dir emails --port 3333",
@@ -104,6 +103,7 @@
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-next-on-pages": "^1.11.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-tailwindcss": "^3.17.4",
     "husky": "^9.1.1",
@@ -121,6 +121,10 @@
     "remark-gfm": "^4.0.0",
     "tailwindcss": "^3.4.6",
     "typescript": "5.5.3",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.0.0",
+    "wrangler": "^3.51.2"
+  },
+  "resolutions": {
+    "esbuild": "0.23.1"
   }
 }
