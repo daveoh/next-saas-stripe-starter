@@ -7,6 +7,8 @@ import Powered from "@/components/sections/powered";
 import PreviewLanding from "@/components/sections/preview-landing";
 import Testimonials from "@/components/sections/testimonials";
 
+export const runtime = 'edge';
+
 export default function IndexPage() {
   return (
     <>

@@ -13,6 +13,8 @@ import { Metadata } from "next";
 
 import { constructMetadata, getBlurDataURL } from "@/lib/utils";
 
+export const runtime = 'edge';
+
 interface DocPageProps {
   params: {
     slug: string[];

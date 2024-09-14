@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { DashboardHeader } from "@/components/dashboard/header";
 import { EmptyPlaceholder } from "@/components/shared/empty-placeholder";
 
+export const runtime = 'edge';
+
 export const metadata = constructMetadata({
   title: "Dashboard – SaaS Starter",
   description: "Create and manage content.",

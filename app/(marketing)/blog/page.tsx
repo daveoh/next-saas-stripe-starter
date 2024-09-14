@@ -3,6 +3,8 @@ import { allPosts } from "contentlayer/generated";
 import { constructMetadata, getBlurDataURL } from "@/lib/utils";
 import { BlogPosts } from "@/components/content/blog-posts";
 
+export const runtime = 'edge';
+
 export const metadata = constructMetadata({
   title: "Blog – SaaS Starter",
   description: "Latest news and updates from Next SaaS Starter.",

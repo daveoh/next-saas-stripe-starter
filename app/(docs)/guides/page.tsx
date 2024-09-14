@@ -6,6 +6,8 @@ import { formatDate } from "@/lib/utils";
 import { DocsPageHeader } from "@/components/docs/page-header";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: "Guides",
   description:

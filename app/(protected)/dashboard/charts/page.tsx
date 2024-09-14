@@ -11,6 +11,8 @@ import { RadialStackedChart } from "@/components/charts/radial-stacked-chart";
 import { RadialTextChart } from "@/components/charts/radial-text-chart";
 import { DashboardHeader } from "@/components/dashboard/header";
 
+export const runtime = 'edge';
+
 export const metadata = constructMetadata({
   title: "Charts – SaaS Starter",
   description: "List of charts by shadcn-ui",

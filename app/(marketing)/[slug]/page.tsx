@@ -9,6 +9,8 @@ import { Metadata } from "next";
 
 import { constructMetadata, getBlurDataURL } from "@/lib/utils";
 
+export const runtime = 'edge';
+
 export async function generateStaticParams() {
   return allPages.map((page) => ({
     slug: page.slugAsParams,

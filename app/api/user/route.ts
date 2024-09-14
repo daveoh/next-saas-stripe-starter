@@ -2,6 +2,8 @@ import { auth } from "@/auth";
 
 import { prisma } from "@/lib/db";
 
+export const runtime = 'edge';
+
 export const DELETE = auth(async (req) => {
   if (!req.auth) {
     return new Response("Not authenticated", { status: 401 });

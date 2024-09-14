@@ -6,6 +6,8 @@ import { BLOG_CATEGORIES } from "@/config/blog";
 import { constructMetadata, getBlurDataURL } from "@/lib/utils";
 import { BlogCard } from "@/components/content/blog-card";
 
+export const runtime = 'edge';
+
 export async function generateStaticParams() {
   return BLOG_CATEGORIES.map((category) => ({
     slug: category.slug,

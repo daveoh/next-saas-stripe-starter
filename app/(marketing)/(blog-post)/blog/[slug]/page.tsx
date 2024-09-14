@@ -23,6 +23,8 @@ import BlurImage from "@/components/shared/blur-image";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { DashboardTableOfContents } from "@/components/shared/toc";
 
+export const runtime = 'edge';
+
 export async function generateStaticParams() {
   return allPosts.map((post) => ({
     slug: post.slugAsParams,

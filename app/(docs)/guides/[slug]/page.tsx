@@ -16,6 +16,8 @@ import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { buttonVariants } from "@/components/ui/button";
 import { cn, constructMetadata } from "@/lib/utils";
 
+export const runtime = 'edge';
+
 export async function generateStaticParams() {
   return allGuides.map((guide) => ({
     slug: guide.slugAsParams,

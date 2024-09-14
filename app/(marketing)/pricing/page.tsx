@@ -8,6 +8,8 @@ import { ComparePlans } from "@/components/pricing/compare-plans";
 import { PricingCards } from "@/components/pricing/pricing-cards";
 import { PricingFaq } from "@/components/pricing/pricing-faq";
 
+export const runtime = 'edge';
+
 export const metadata = constructMetadata({
   title: "Pricing – SaaS Starter",
   description: "Explore our subscription plans.",

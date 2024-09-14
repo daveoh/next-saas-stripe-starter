@@ -6,6 +6,8 @@ import { DashboardHeader } from "@/components/dashboard/header";
 import InfoCard from "@/components/dashboard/info-card";
 import TransactionsList from "@/components/dashboard/transactions-list";
 
+export const runtime = 'edge';
+
 export const metadata = constructMetadata({
   title: "Admin – SaaS Starter",
   description: "Admin page for only admin management.",

@@ -6,6 +6,8 @@ import { Icons } from "@/components/shared/icons"
 import { UserAuthForm } from "@/components/forms/user-auth-form"
 import { Suspense } from "react"
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: "Create an account",
   description: "Create an account to get started.",
